@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/filmPage.css">
+    <title>Filmify</title>
+    <link rel="icon" href="/icons/logoF.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark text-white" id="navbar">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/structure/index.html">Home</a>
+                        </li>
+        
+                        
+
+                    </ul>
+                </div>
+                <img src="/icons/logoF.png" alt="logo" width="48px" height="48px">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="poster">
+            <img id="img" src="" alt="Poster" width="318px" height="472px">
+        </div>
+        <div id="text">
+            <h1 id="title"></h1>
+            <p class="info">Date released: <span class="value" id="date"></span></p>
+            <p class="info">Runtime: <span class="value" id="runtime"></span></p>
+            <p class="info">Genre: <span class="value" id="genre"></span></p>
+            <p class="info">Actors: <span class="value" id="actors"></span></p>
+            <p class="info">Director: <span class="value" id="director"></span></p>
+            <p class="info">Writer: <span class="value" id="writer"></span></p>
+            <p class="info">Plot: <span class="value" id="plot"></span></p>
+            <p class="info">Country: <span class="value" id="country"></span></p>
+            <p class="info">Ratings:</p>
+            <div id="ratings">
+                <div class="ratingItem">
+                <h2>Internet Movie Database</h2>
+                <p id="intMovData">8.7/10</p>
+                </div>
+                <div class="ratingItem">
+                <h2>Rotten Tomatoes</h2>
+                <p id="rottenTomatoes">83%</p>
+                </div>
+                <div class="ratingItem">
+                <h2>Metacritic</h2>
+                <p id="metacritic">73/100</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div id="footer">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="/scripts/filmPage.js"></script>
+</body>
+
+</html>
